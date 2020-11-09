@@ -6,7 +6,7 @@ import 'package:weather_app/services/open_weather_map_service.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 
-/// A {WeatherRepository} subclass.
+/// A [WeatherRepository] subclass.
 class OpenWeatherMapRepository extends WeatherRepository {
 
   // METHODS -------------------------------------------------------------------

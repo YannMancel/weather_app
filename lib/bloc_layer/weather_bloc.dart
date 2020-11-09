@@ -7,7 +7,7 @@ import 'package:weather_app/data_layer/weather.dart';
 import 'package:weather_app/repositories/open_weather_map_repository.dart';
 import 'package:weather_app/repositories/weather_repository.dart';
 
-/// A {BLoC} subclass.
+/// A [BLoC] subclass.
 class WeatherBLoC implements BLoC {
 
   // FIELDS --------------------------------------------------------------------

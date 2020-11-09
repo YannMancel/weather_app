@@ -3,7 +3,7 @@ import 'package:location/location.dart';
 import 'package:weather_app/bloc_layer/bloc.dart';
 import 'package:weather_app/data_layer/geographic_coordinates.dart';
 
-/// A {BLoC} subclass.
+/// A [BLoC] subclass.
 class LocationBLoC extends BLoC {
 
   // FIELDS --------------------------------------------------------------------

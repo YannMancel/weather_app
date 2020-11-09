@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/bloc_layer/bloc.dart';
 
-/// A {StatelessWidget} subclass.
+/// A [StatefulWidget] subclass.
 class BLoCProvider<T extends BLoC> extends StatefulWidget {
 
   // FIELDS --------------------------------------------------------------------
@@ -27,7 +27,7 @@ class BLoCProvider<T extends BLoC> extends StatefulWidget {
   }
 }
 
-/// A {State<BLoCProvider>} subclass.
+/// A [State] of [BLoCProvider] subclass.
 class _BLoCProviderState extends State<BLoCProvider> {
   @override
   Widget build(BuildContext context) => widget.child;

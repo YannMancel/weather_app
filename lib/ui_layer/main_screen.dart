@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:weather_app/bloc_layer/location_bloc.dart';
 import 'package:weather_app/ui_layer/weather_screen.dart';
 
-/// A {StatelessWidget} subclass.
+/// A [StatelessWidget] subclass.
 class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

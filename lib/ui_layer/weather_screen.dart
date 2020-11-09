@@ -5,7 +5,7 @@ import 'package:weather_app/bloc_layer/weather_bloc.dart';
 import 'package:weather_app/data_layer/geographic_coordinates.dart';
 import 'package:weather_app/data_layer/weather.dart';
 
-/// A {StatelessWidget} subclass.
+/// A [StatefulWidget] subclass.
 class WeatherScreen extends StatefulWidget {
   final String title;
 
@@ -15,7 +15,7 @@ class WeatherScreen extends StatefulWidget {
   _WeatherScreenState createState() => _WeatherScreenState();
 }
 
-/// A {State<WeatherScreen>} subclass.
+/// A [State] of [WeatherScreen] subclass.
 class _WeatherScreenState extends State<WeatherScreen> {
 
   // -- METHODS ----------------------------------------------------------------
